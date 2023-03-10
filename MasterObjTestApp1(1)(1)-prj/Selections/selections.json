@@ -1,0 +1,7 @@
+[
+  {
+    "Field": "Product Category",
+    "OneAndOnlyOne": true,
+    "Selected": "Furniture"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "Id": "SrpLb",
+  "Properties": {
+    "qInfo": {
+      "qId": "SrpLb",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "sum ( if ( [Customer Segment] = 'Consumer', Sales))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Consumer Sales",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Consumer Sales"
+    }
+  }
+}

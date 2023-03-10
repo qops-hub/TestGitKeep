@@ -1,0 +1,18 @@
+{
+  "Children": [],
+  "Column": 0,
+  "Height": 6,
+  "Id": "UJaPVsp",
+  "Properties": {
+    "qExtendsId": "b44cffed-fbbe-4fd9-a27e-51f9841aebeb",
+    "qInfo": {
+      "qId": "UJaPVsp",
+      "qType": "combochart"
+    },
+    "qMetaDef": {}
+  },
+  "Row": 0,
+  "Title": "",
+  "Type": "combochart",
+  "Width": 12
+}

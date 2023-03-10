@@ -1,0 +1,27 @@
+{
+  "Id": "kEYRk",
+  "Properties": {
+    "qInfo": {
+      "qId": "kEYRk",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "count ( If ([Ship Mode] = 'Delivery Truck', [Order ID]))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Delivery Truck Orders",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Delivery Truck Orders"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Id": "AtJAUJJ",
+  "Properties": {
+    "qInfo": {
+      "qId": "AtJAUJJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "avg([Ship Date]-[Order Date])",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Average Days to Ship",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Average Days to Ship"
+    }
+  }
+}

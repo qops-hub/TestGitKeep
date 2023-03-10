@@ -1,0 +1,27 @@
+{
+  "Id": "3527b081-1a25-4487-8d45-931172567679",
+  "Properties": {
+    "qInfo": {
+      "qId": "3527b081-1a25-4487-8d45-931172567679",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "sum ( if ( [Customer Segment] = 'Home Office', Sales))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Home Office",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Home Office"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "Definition": "sum( if ([Order Date] like '*/*/2012', Sales))/5*0.95",
+  "Id": "e7cc768d-f367-408e-90b9-6720531fa13f",
+  "IsScript": false,
+  "Name": "SalesTarget_Min"
+}

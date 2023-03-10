@@ -1,0 +1,54 @@
+{
+  "Children": [],
+  "Column": 0,
+  "Height": 0,
+  "Id": "d8467a74-4e94-400f-b6c9-56233d38f940",
+  "Properties": {
+    "disableNavMenu": false,
+    "footnote": "",
+    "qInfo": {
+      "qId": "d8467a74-4e94-400f-b6c9-56233d38f940",
+      "qType": "listbox"
+    },
+    "qListObjectDef": {
+      "qDef": {
+        "autoSort": true,
+        "cId": "bpBck",
+        "qActiveField": 0,
+        "qFieldDefs": [
+          "Order Priority"
+        ],
+        "qFieldLabels": [
+          "Order Priority"
+        ],
+        "qGrouping": "N",
+        "qNumberPresentations": [],
+        "qSortCriterias": [
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        ]
+      },
+      "qExpressions": [],
+      "qFrequencyMode": "N",
+      "qInitialDataFetch": [],
+      "qOtherTotalSpec": {},
+      "qShowAlternatives": true
+    },
+    "qMetaDef": {},
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": true,
+    "subtitle": "",
+    "title": "Order Priority",
+    "visualization": "listbox"
+  },
+  "Row": 0,
+  "Title": "Order Priority",
+  "Type": "listbox",
+  "Width": 0
+}

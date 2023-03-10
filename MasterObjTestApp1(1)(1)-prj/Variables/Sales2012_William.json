@@ -1,0 +1,6 @@
+{
+  "Definition": "sum ( if ( Manager = 'William' and [Order Date] like '*/*/2012', Sales))",
+  "Id": "f5ab5630-ca7c-46bb-8209-a5db37a3d992",
+  "IsScript": false,
+  "Name": "Sales2012_William"
+}

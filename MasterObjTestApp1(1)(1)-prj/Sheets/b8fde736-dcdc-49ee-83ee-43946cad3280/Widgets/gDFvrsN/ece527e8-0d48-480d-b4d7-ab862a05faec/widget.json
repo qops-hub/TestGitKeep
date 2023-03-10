@@ -1,0 +1,54 @@
+{
+  "Children": [],
+  "Column": 0,
+  "Height": 0,
+  "Id": "ece527e8-0d48-480d-b4d7-ab862a05faec",
+  "Properties": {
+    "disableNavMenu": false,
+    "footnote": "",
+    "qInfo": {
+      "qId": "ece527e8-0d48-480d-b4d7-ab862a05faec",
+      "qType": "listbox"
+    },
+    "qListObjectDef": {
+      "qDef": {
+        "autoSort": true,
+        "cId": "hDHjpEc",
+        "qActiveField": 0,
+        "qFieldDefs": [
+          "Status"
+        ],
+        "qFieldLabels": [
+          "Status"
+        ],
+        "qGrouping": "N",
+        "qNumberPresentations": [],
+        "qSortCriterias": [
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        ]
+      },
+      "qExpressions": [],
+      "qFrequencyMode": "N",
+      "qInitialDataFetch": [],
+      "qOtherTotalSpec": {},
+      "qShowAlternatives": true
+    },
+    "qMetaDef": {},
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": true,
+    "subtitle": "",
+    "title": "Status",
+    "visualization": "listbox"
+  },
+  "Row": 0,
+  "Title": "Status",
+  "Type": "listbox",
+  "Width": 0
+}

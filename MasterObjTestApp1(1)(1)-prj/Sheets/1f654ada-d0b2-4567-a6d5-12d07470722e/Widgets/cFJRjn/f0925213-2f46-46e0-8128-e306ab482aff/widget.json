@@ -1,0 +1,54 @@
+{
+  "Children": [],
+  "Column": 0,
+  "Height": 0,
+  "Id": "f0925213-2f46-46e0-8128-e306ab482aff",
+  "Properties": {
+    "disableNavMenu": false,
+    "footnote": "",
+    "qInfo": {
+      "qId": "f0925213-2f46-46e0-8128-e306ab482aff",
+      "qType": "listbox"
+    },
+    "qListObjectDef": {
+      "qDef": {
+        "autoSort": true,
+        "cId": "RTUpwqp",
+        "qActiveField": 0,
+        "qFieldDefs": [
+          "Product Category"
+        ],
+        "qFieldLabels": [
+          ""
+        ],
+        "qGrouping": "N",
+        "qNumberPresentations": [],
+        "qSortCriterias": [
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        ]
+      },
+      "qExpressions": [],
+      "qFrequencyMode": "N",
+      "qInitialDataFetch": [],
+      "qOtherTotalSpec": {},
+      "qShowAlternatives": true
+    },
+    "qMetaDef": {},
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": true,
+    "subtitle": "",
+    "title": "Product Category",
+    "visualization": "listbox"
+  },
+  "Row": 0,
+  "Title": "Product Category",
+  "Type": "listbox",
+  "Width": 0
+}

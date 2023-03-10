@@ -1,0 +1,27 @@
+{
+  "Id": "d6f93f7b-43e7-4c2c-890f-7f19f4a4e5a2",
+  "Properties": {
+    "qInfo": {
+      "qId": "d6f93f7b-43e7-4c2c-890f-7f19f4a4e5a2",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "sum ( if ( [Customer Segment] = 'Corporate', Sales))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Corporate",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Corporate"
+    }
+  }
+}

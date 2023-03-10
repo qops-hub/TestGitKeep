@@ -1,0 +1,27 @@
+{
+  "Id": "kJSkzf",
+  "Properties": {
+    "qDim": {
+      "coloring": {
+        "changeHash": "0.5103956802093828"
+      },
+      "qFieldDefs": [
+        "Order Date.autoCalendar.Year",
+        "Order Date.autoCalendar.Month",
+        "Order Date.autoCalendar.Date"
+      ],
+      "qFieldLabels": [],
+      "qGrouping": "H",
+      "title": "Order Date Selection"
+    },
+    "qInfo": {
+      "qId": "kJSkzf",
+      "qType": "dimension"
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Order Date Selection"
+    }
+  }
+}

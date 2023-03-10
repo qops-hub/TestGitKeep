@@ -1,0 +1,139 @@
+{
+  "Children": [
+    {
+      "Children": [],
+      "Column": 0,
+      "Height": 0,
+      "Id": "f0925213-2f46-46e0-8128-e306ab482aff",
+      "Properties": {
+        "disableNavMenu": false,
+        "footnote": "",
+        "qInfo": {
+          "qId": "f0925213-2f46-46e0-8128-e306ab482aff",
+          "qType": "listbox"
+        },
+        "qListObjectDef": {
+          "qDef": {
+            "autoSort": true,
+            "cId": "RTUpwqp",
+            "qActiveField": 0,
+            "qFieldDefs": [
+              "Product Category"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qGrouping": "N",
+            "qNumberPresentations": [],
+            "qSortCriterias": [
+              {
+                "qExpression": {},
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qSortByNumeric": 1,
+                "qSortByState": 1
+              }
+            ]
+          },
+          "qExpressions": [],
+          "qFrequencyMode": "N",
+          "qInitialDataFetch": [],
+          "qOtherTotalSpec": {},
+          "qShowAlternatives": true
+        },
+        "qMetaDef": {},
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Product Category",
+        "visualization": "listbox"
+      },
+      "Row": 0,
+      "Title": "Product Category",
+      "Type": "listbox",
+      "Width": 0
+    },
+    {
+      "Children": [],
+      "Column": 0,
+      "Height": 0,
+      "Id": "0066e318-f67d-4b5c-9fd7-f67e55035cb9",
+      "Properties": {
+        "disableNavMenu": false,
+        "footnote": "",
+        "qInfo": {
+          "qId": "0066e318-f67d-4b5c-9fd7-f67e55035cb9",
+          "qType": "listbox"
+        },
+        "qListObjectDef": {
+          "qDef": {
+            "autoSort": true,
+            "cId": "pDJTbD",
+            "qActiveField": 0,
+            "qFieldDefs": [
+              "Product Sub-Category"
+            ],
+            "qFieldLabels": [
+              "Product Sub-Category"
+            ],
+            "qGrouping": "N",
+            "qNumberPresentations": [],
+            "qSortCriterias": [
+              {
+                "qExpression": {},
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qSortByNumeric": 1,
+                "qSortByState": 1
+              }
+            ]
+          },
+          "qExpressions": [],
+          "qFrequencyMode": "N",
+          "qInitialDataFetch": [],
+          "qOtherTotalSpec": {},
+          "qShowAlternatives": true
+        },
+        "qMetaDef": {},
+        "showDetails": false,
+        "showDetailsExpression": false,
+        "showTitles": true,
+        "subtitle": "",
+        "title": "Product Sub-Category",
+        "visualization": "listbox"
+      },
+      "Row": 0,
+      "Title": "Product Sub-Category",
+      "Type": "listbox",
+      "Width": 0
+    }
+  ],
+  "Column": 0,
+  "Height": 12,
+  "Id": "cFJRjn",
+  "Properties": {
+    "disableNavMenu": false,
+    "footnote": "",
+    "qChildListDef": {
+      "qData": {
+        "info": "/qInfo"
+      }
+    },
+    "qInfo": {
+      "qId": "cFJRjn",
+      "qType": "filterpane"
+    },
+    "qMetaDef": {},
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": false,
+    "subtitle": "",
+    "title": "",
+    "visualization": "filterpane"
+  },
+  "Row": 0,
+  "Title": "",
+  "Type": "filterpane",
+  "Width": 4
+}

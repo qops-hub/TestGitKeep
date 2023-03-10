@@ -1,0 +1,27 @@
+{
+  "Id": "3406dd8c-1ff0-4c54-aa0b-3392d5023a27",
+  "Properties": {
+    "qInfo": {
+      "qId": "3406dd8c-1ff0-4c54-aa0b-3392d5023a27",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "sum ( if ( [Customer Segment] = 'Small Business', Sales))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Small Business",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Small Business"
+    }
+  }
+}
