@@ -1,0 +1,65 @@
+{
+  "Children": [],
+  "Column": 0,
+  "Height": 0,
+  "Id": "676bbf8c-07bd-4ba0-ae34-a03d465dc677",
+  "Properties": {
+    "disableNavMenu": false,
+    "footnote": "",
+    "qInfo": {
+      "qId": "676bbf8c-07bd-4ba0-ae34-a03d465dc677",
+      "qType": "listbox"
+    },
+    "qListObjectDef": {
+      "qDef": {
+        "autoSort": true,
+        "cId": "QUgcxjJ",
+        "qActiveField": 0,
+        "qFieldDefs": [],
+        "qFieldLabels": [],
+        "qGrouping": "N",
+        "qNumberPresentations": [],
+        "qSortCriterias": [
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          },
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          },
+          {
+            "qExpression": {},
+            "qSortByAscii": 1,
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        ]
+      },
+      "qExpressions": [],
+      "qFrequencyMode": "N",
+      "qInitialDataFetch": [],
+      "qLibraryId": "kJSkzf",
+      "qOtherTotalSpec": {},
+      "qShowAlternatives": true
+    },
+    "qMetaDef": {},
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": true,
+    "subtitle": "",
+    "title": "Order Date Selection",
+    "visualization": "listbox"
+  },
+  "Row": 0,
+  "Title": "Order Date Selection",
+  "Type": "listbox",
+  "Width": 0
+}

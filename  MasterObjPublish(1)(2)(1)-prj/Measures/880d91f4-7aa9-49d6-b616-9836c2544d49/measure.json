@@ -1,0 +1,27 @@
+{
+  "Id": "880d91f4-7aa9-49d6-b616-9836c2544d49",
+  "Properties": {
+    "qInfo": {
+      "qId": "880d91f4-7aa9-49d6-b616-9836c2544d49",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "count ( If ([Ship Mode] = 'Regular Air', [Order ID]))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Regular Air Orders",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Regular Air Orders"
+    }
+  }
+}

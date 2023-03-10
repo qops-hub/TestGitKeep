@@ -1,0 +1,6 @@
+{
+  "Definition": "sum( if ([Order Date] like '*/*/2012', Sales))/5*1.15",
+  "Id": "8033bdfe-2f42-48a7-aaa2-005611ebeaf0",
+  "IsScript": false,
+  "Name": "SalesTarget_Max"
+}
