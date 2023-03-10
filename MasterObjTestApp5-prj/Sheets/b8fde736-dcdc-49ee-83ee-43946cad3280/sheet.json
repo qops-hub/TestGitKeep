@@ -1,0 +1,37 @@
+{
+  "Sheet": {
+    "Description": "Overview ORders and Returns",
+    "Id": "b8fde736-dcdc-49ee-83ee-43946cad3280",
+    "Title": "Overview ORders and Returns"
+  },
+  "SheetProperties": {
+    "Id": "b8fde736-dcdc-49ee-83ee-43946cad3280",
+    "Properties": {
+      "columns": 24,
+      "gridMode": "edit",
+      "gridResolution": "small",
+      "layoutOptions": {
+        "mobileLayout": "LIST"
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title"
+        }
+      },
+      "qInfo": {
+        "qId": "b8fde736-dcdc-49ee-83ee-43946cad3280",
+        "qType": "sheet"
+      },
+      "qMetaDef": {
+        "description": "Overview ORders and Returns",
+        "title": "Overview ORders and Returns"
+      },
+      "rank": 5,
+      "rows": 12,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      }
+    }
+  },
+  "Widgets": []
+}

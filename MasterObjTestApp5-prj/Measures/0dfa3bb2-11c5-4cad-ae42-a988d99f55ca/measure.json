@@ -1,0 +1,27 @@
+{
+  "Id": "0dfa3bb2-11c5-4cad-ae42-a988d99f55ca",
+  "Properties": {
+    "qInfo": {
+      "qId": "0dfa3bb2-11c5-4cad-ae42-a988d99f55ca",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "coloring": {},
+      "qActiveExpression": 0,
+      "qDef": "count ( If ([Ship Mode] = 'Express Air', [Order ID]))",
+      "qExpressions": [],
+      "qGrouping": "N",
+      "qLabel": "Express Air Orders",
+      "qNumFormat": {
+        "qnDec": 10,
+        "qType": "U",
+        "qUseThou": 0
+      }
+    },
+    "qMetaDef": {
+      "description": "",
+      "tags": [],
+      "title": "Express Air Orders"
+    }
+  }
+}

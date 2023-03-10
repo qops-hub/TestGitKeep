@@ -1,0 +1,37 @@
+{
+  "Sheet": {
+    "Description": "Shipments",
+    "Id": "dc17d4f4-4bfc-4a5a-a180-2a3bb10b07c1",
+    "Title": "Shipments"
+  },
+  "SheetProperties": {
+    "Id": "dc17d4f4-4bfc-4a5a-a180-2a3bb10b07c1",
+    "Properties": {
+      "columns": 24,
+      "gridMode": "edit",
+      "gridResolution": "small",
+      "layoutOptions": {
+        "mobileLayout": "LIST"
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title"
+        }
+      },
+      "qInfo": {
+        "qId": "dc17d4f4-4bfc-4a5a-a180-2a3bb10b07c1",
+        "qType": "sheet"
+      },
+      "qMetaDef": {
+        "description": "Shipments",
+        "title": "Shipments"
+      },
+      "rank": 4,
+      "rows": 12,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      }
+    }
+  },
+  "Widgets": []
+}

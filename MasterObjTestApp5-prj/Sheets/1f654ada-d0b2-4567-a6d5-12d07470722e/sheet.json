@@ -1,0 +1,37 @@
+{
+  "Sheet": {
+    "Description": "Product Category Sales",
+    "Id": "1f654ada-d0b2-4567-a6d5-12d07470722e",
+    "Title": "Product Category Sales"
+  },
+  "SheetProperties": {
+    "Id": "1f654ada-d0b2-4567-a6d5-12d07470722e",
+    "Properties": {
+      "columns": 24,
+      "gridMode": "edit",
+      "gridResolution": "small",
+      "layoutOptions": {
+        "mobileLayout": "LIST"
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title"
+        }
+      },
+      "qInfo": {
+        "qId": "1f654ada-d0b2-4567-a6d5-12d07470722e",
+        "qType": "sheet"
+      },
+      "qMetaDef": {
+        "description": "Product Category Sales",
+        "title": "Product Category Sales"
+      },
+      "rank": 3,
+      "rows": 12,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      }
+    }
+  },
+  "Widgets": []
+}

@@ -1,0 +1,6 @@
+{
+  "Definition": "sum ( if ( [Order Date] like '*/*/2012', Profit ) )",
+  "Id": "899b02bf-05de-48aa-af2f-d764e4df0180",
+  "IsScript": false,
+  "Name": "Profit2012"
+}

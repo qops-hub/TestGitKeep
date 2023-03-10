@@ -1,0 +1,357 @@
+{
+  "Children": [],
+  "Column": 10,
+  "Height": 6,
+  "Id": "dXGkvNa",
+  "Properties": {
+    "color": {
+      "auto": false,
+      "negativeValue": {
+        "paletteColor": {
+          "color": "#cc1b05",
+          "index": -1
+        }
+      },
+      "positiveValue": {
+        "paletteColor": {
+          "color": "#04800e",
+          "index": -1
+        }
+      },
+      "subtotal": {
+        "paletteColor": {
+          "color": "#c3c3c3",
+          "index": -1
+        }
+      }
+    },
+    "dataPoint": {
+      "showLabels": true
+    },
+    "dimensionAxis": {
+      "dock": "near",
+      "label": "auto",
+      "show": "labels"
+    },
+    "disableNavMenu": false,
+    "footnote": "",
+    "gridlines": {
+      "auto": true,
+      "spacing": 2
+    },
+    "legend": {
+      "dock": "auto",
+      "show": true
+    },
+    "measureAxis": {
+      "autoMinMax": true,
+      "dock": "near",
+      "max": 10,
+      "min": 0,
+      "minMax": "min",
+      "show": "labels",
+      "spacing": 1
+    },
+    "qDef": {
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "qNumFormat": {}
+    },
+    "qHyperCubeDef": {
+      "qCalcCond": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qDimensions": [],
+      "qDynamicScript": [],
+      "qExpansionState": [],
+      "qInitialDataFetch": [
+        {
+          "qHeight": 10,
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 200
+        }
+      ],
+      "qInterColumnSortOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qDimensions": [],
+          "qDynamicScript": [],
+          "qExpansionState": [],
+          "qInitialDataFetch": [],
+          "qInterColumnSortOrder": [],
+          "qMaxStackedCells": 5000,
+          "qMeasures": [],
+          "qMode": "S",
+          "qNoOfLeftDims": -1,
+          "qPseudoDimPos": -1,
+          "qReductionMode": "N",
+          "qTitle": {}
+        }
+      },
+      "qMaxStackedCells": 5000,
+      "qMeasures": [
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "dZpMJ",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "avg([Unit Price]*[Order Quantity])",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qLabel": "Base Cost",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": [],
+            "subtotal": {
+              "enable": true,
+              "label": "Subtotals"
+            },
+            "valueType": "NORMAL"
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        },
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "WcPRjw",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "Avg([Shipping Cost])",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qLabel": "Shipping Cost",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": [],
+            "subtotal": {
+              "enable": false,
+              "label": "Subtotals"
+            },
+            "valueType": "NORMAL"
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        },
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "pjMBmaR",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "avg(Discount*Sales)",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qLabel": "Discount",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": [],
+            "subtotal": {
+              "enable": false,
+              "label": "Subtotals"
+            },
+            "valueType": "NORMAL"
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        },
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "XBJTueS",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "Avg(Profit)",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qLabel": "Profit Margin",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": [],
+            "subtotal": {
+              "enable": false,
+              "label": "Subtotals"
+            },
+            "valueType": "NORMAL"
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        }
+      ],
+      "qMode": "S",
+      "qNoOfLeftDims": -1,
+      "qPseudoDimPos": -1,
+      "qReductionMode": "N",
+      "qSuppressMissing": true,
+      "qTitle": {}
+    },
+    "qInfo": {
+      "qId": "dXGkvNa",
+      "qType": "waterfallchart"
+    },
+    "qMetaDef": {},
+    "refLine": {
+      "refLines": []
+    },
+    "script": "",
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showTitles": true,
+    "subtitle": "Including Direct Costs",
+    "title": "Product Cost Breakdown Structure",
+    "version": "0.25.13",
+    "visualization": "waterfallchart"
+  },
+  "Row": 0,
+  "Title": "Product Cost Breakdown Structure",
+  "Type": "waterfallchart",
+  "Width": 14
+}

@@ -1,0 +1,320 @@
+{
+  "Children": [],
+  "Column": 12,
+  "Height": 6,
+  "Id": "PVkwEj",
+  "Properties": {
+    "color": {
+      "altLabel": "Customer Segment",
+      "auto": false,
+      "autoMinMax": true,
+      "byDimDef": {
+        "key": "[Customer Segment]",
+        "label": "Customer Segment",
+        "type": "expression"
+      },
+      "dimensionScheme": "12",
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "measureMax": 10,
+      "measureMin": 0,
+      "measureScheme": "sg",
+      "mode": "byDimension",
+      "paletteColor": {
+        "index": 6
+      },
+      "persistent": false,
+      "reverseScheme": false,
+      "useBaseColors": "off",
+      "useDimColVal": true,
+      "useMeasureGradient": true
+    },
+    "compressionResolution": 5,
+    "dataPoint": {
+      "bubbleSizes": 15,
+      "compressionResolution": 5,
+      "rangeBubbleSizes": [
+        2,
+        8
+      ]
+    },
+    "disableNavMenu": false,
+    "footnote": "",
+    "gridLine": {
+      "auto": true,
+      "spacing": 2
+    },
+    "labels": {
+      "mode": 1
+    },
+    "legend": {
+      "dock": "auto",
+      "show": true,
+      "showTitle": true
+    },
+    "navigation": false,
+    "qHyperCubeDef": {
+      "qCalcCond": {},
+      "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qDimensions": [
+        {
+          "qAttributeDimensions": [
+            {
+              "id": "colorByAlternative",
+              "label": "Customer Segment",
+              "qAttribute": true,
+              "qDef": "[Customer Segment]",
+              "qSortBy": {
+                "qExpression": {},
+                "qSortByAscii": 1
+              }
+            }
+          ],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "GxPmm",
+            "othersLabel": "Others",
+            "qActiveField": 0,
+            "qFieldDefs": [
+              "Customer Segment"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qGrouping": "N",
+            "qNumberPresentations": [],
+            "qSortCriterias": [
+              {
+                "qExpression": {},
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qSortByNumeric": 1
+              }
+            ]
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qForceBadValueKeeping": true,
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qOtherMode": "OTHER_OFF",
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qReferencedExpression": {},
+            "qTotalMode": "TOTAL_OFF"
+          },
+          "qTotalLabel": {}
+        }
+      ],
+      "qDynamicScript": [],
+      "qExpansionState": [],
+      "qInitialDataFetch": [],
+      "qInterColumnSortOrder": [
+        2,
+        1,
+        0
+      ],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qDimensions": [],
+          "qDynamicScript": [],
+          "qExpansionState": [],
+          "qInitialDataFetch": [],
+          "qInterColumnSortOrder": [],
+          "qMaxStackedCells": 5000,
+          "qMeasures": [],
+          "qMode": "S",
+          "qNoOfLeftDims": -1,
+          "qPseudoDimPos": -1,
+          "qReductionMode": "N",
+          "qTitle": {}
+        }
+      },
+      "qMaxStackedCells": 5000,
+      "qMeasures": [
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "kwAVH",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "Avg(Profit)",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": []
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        },
+        {
+          "qAttributeDimensions": [],
+          "qAttributeExpressions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qDef": {
+            "autoSort": true,
+            "cId": "jZjddP",
+            "numFormatFromTemplate": true,
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qDef": "Sum(Sales)",
+            "qExpressions": [],
+            "qGrouping": "N",
+            "qNumFormat": {
+              "qnDec": 10,
+              "qType": "U",
+              "qUseThou": 0
+            },
+            "qTags": []
+          },
+          "qMiniChartDef": {
+            "qAttributeExpressions": [],
+            "qMaxNumberPoints": -1,
+            "qOtherTotalSpec": {
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qForceBadValueKeeping": true,
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qOtherMode": "OTHER_OFF",
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qReferencedExpression": {},
+              "qTotalMode": "TOTAL_OFF"
+            },
+            "qSortBy": {
+              "qExpression": {}
+            }
+          },
+          "qSortBy": {
+            "qExpression": {},
+            "qSortByLoadOrder": 1,
+            "qSortByNumeric": -1
+          },
+          "qTrendLines": []
+        }
+      ],
+      "qMode": "S",
+      "qNoOfLeftDims": -1,
+      "qPseudoDimPos": -1,
+      "qReductionMode": "N",
+      "qSuppressMissing": true,
+      "qTitle": {}
+    },
+    "qInfo": {
+      "qId": "PVkwEj",
+      "qType": "scatterplot"
+    },
+    "qMetaDef": {},
+    "refLine": {
+      "refLinesX": [],
+      "refLinesY": []
+    },
+    "script": "",
+    "showDetails": false,
+    "showDetailsExpression": false,
+    "showDisclaimer": true,
+    "showTitles": true,
+    "subtitle": "Total Sales Amount vs Profit Margin",
+    "title": "Sales vs Margin by Customer Segment",
+    "tooltip": {
+      "auto": true,
+      "chart": {
+        "style": {
+          "size": "medium"
+        }
+      },
+      "description": "",
+      "hideBasic": false,
+      "title": ""
+    },
+    "trendLines": [],
+    "version": "3.7.0",
+    "visualization": "scatterplot",
+    "xAxis": {
+      "autoMinMax": true,
+      "dock": "near",
+      "max": 10,
+      "min": 0,
+      "minMax": "min",
+      "show": "all",
+      "spacing": 1
+    },
+    "yAxis": {
+      "autoMinMax": true,
+      "dock": "near",
+      "max": 10,
+      "min": 0,
+      "minMax": "min",
+      "show": "all",
+      "spacing": 1
+    }
+  },
+  "Row": 0,
+  "Title": "Sales vs Margin by Customer Segment",
+  "Type": "scatterplot",
+  "Width": 12
+}
